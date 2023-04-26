@@ -1,7 +1,3 @@
-Account newsapi
-email : richardpl.meha@gmail.com
-pass : farech12345
-
 resource : 
 1. axios : https://axios-http.com/docs/intro
 2. bootstrap : https://getbootstrap.com/
