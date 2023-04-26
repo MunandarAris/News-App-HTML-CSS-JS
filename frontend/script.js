@@ -1,5 +1,5 @@
 const url_api =
-  "https://newsapi.org/v2/everything?domains=techcrunch.com,thenextweb.com&apiKey=785883ac8f0248ddb4c988f4e071b780";
+  "https://newsapi.org/v2/everything?domains=techcrunch.com,thenextweb.com&apiKey=yourkey";
 
 async function getNews(url) {
   const response = await fetch(url);
@@ -52,7 +52,7 @@ function searchNews() {
 
   setTimeout(async () => {
     const response = await fetch(
-      `https://newsapi.org/v2/everything?q=${input.value}&apiKey=785883ac8f0248ddb4c988f4e071b780`
+      `https://newsapi.org/v2/everything?q=${input.value}&apiKey=yourkey`
     );
 
     const data = await response.json();
